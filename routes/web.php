@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BankController;
+use Illuminate\Models\Bank;
+use Illuminate\Models\Rekening;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +17,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+
+// Route::get('/proyek','App\Http\Controllers\ProyekController@getProyek');
+// Route::get('/proyek/{proyek_id}','App\Http\Controllers\ProyekController@getProyekById');
+
+
+
+
+
+
+
+
