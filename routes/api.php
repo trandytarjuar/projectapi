@@ -23,4 +23,9 @@ Route::resource('/proyek', ProyekController::class);
 Route::resource('/bank', BankController::class);
 Route::resource('/rekening', RekeningController::class);
 Route::resource('/mitra', MitraController::class);
+Route::resource('/patunganarisan', PatunganarisanController::class);
+Route::resource('/daftarmitraarisan', DaftarMitraArisanController::class);
+Route::resource('/setoran', SetoranController::class);
+// Route::resource('/patunganarisandetail', Patunganarisan_detailController::class);
+// Route::resource('/patunganarisandetail', Patunganarisan_detailController::class);
 
